@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 class Test extends TestCase
 {
-    public function setUp()
+    public function setUp() : void
     {
         //
     }
@@ -13,5 +13,13 @@ class Test extends TestCase
     public function testSuiteIsWorkingProperly()
     {
         $this->assertTrue(true);
+    }
+
+    /** @test */
+    public function canCreatePackageClass()
+    {
+        $class = new \Angle\Packet\Package;
+
+        $this->assertTrue($class != null);
     }
 }
