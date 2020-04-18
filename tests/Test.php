@@ -18,7 +18,7 @@ class Test extends TestCase
     /** @test */
     public function canCreatePackageClass()
     {
-        $class = new \Angle\Packet\Package;
+        $class = new \Overmise\Packet\Package;
 
         $this->assertTrue($class != null);
     }

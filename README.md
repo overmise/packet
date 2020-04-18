@@ -9,7 +9,7 @@ As I'm creating more and more composer packages, I decided to create a base temp
 ## Installation
 
 ```shell
-composer require angle/packet
+composer require overmise/packet
 ```
 
 ## Contributing
@@ -20,4 +20,4 @@ Improvements are welcome! Feel free to submit pull requests.
 
 MIT
 
-Copyright © 2019 [Angle Software](https://angle.software)
+Copyright © 2020 [Overmise](https://overmise.com)

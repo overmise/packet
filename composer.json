@@ -1,12 +1,12 @@
 {
-    "name": "angle/packet",
+    "name": "overmise/packet",
     "description": "Composer Package Template",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ben Villiere",
-            "email": "code@angle.software"
+            "email": "we@overmise.com"
         }
     ],
     "require": {
